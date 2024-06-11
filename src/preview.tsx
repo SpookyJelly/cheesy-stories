@@ -10,12 +10,10 @@
  */
 import React from "react";
 
-import type { Renderer, ProjectAnnotations } from "@storybook/types";
-import { EVENTS, PARAM_KEY } from "./constants";
+import { EVENTS } from "./constants";
 import type { Preview } from "@storybook/react/*";
 import { useChannel, useState, addons } from "@storybook/preview-api";
 import { Cheese } from "./components/Cheese";
-import { AddonStore, useAddonState } from "@storybook/manager-api";
 
 /**
  * Note: if you want to use JSX in this file, rename it to `preview.tsx`

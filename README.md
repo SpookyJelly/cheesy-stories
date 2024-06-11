@@ -1,4 +1,5 @@
 # Storybook Addon chessy-stories
+
 control your story's width like a chesse
 
 ### Development scripts
@@ -8,6 +9,7 @@ control your story's width like a chesse
 
 ### Switch from TypeScript to JavaScript
 
+![icon](https://github.com/SpookyJelly/cheesy-stories/assets/74237436/b410d10c-93ff-4eb2-ac66-61f1298dd47b)
 Don't want to use TypeScript? We offer a handy eject command: `npm run eject-ts`
 
 This will convert all code to JS. It is a destructive process, so we recommended running this before you start writing any code.
@@ -153,14 +155,14 @@ registering the addon, like so:
 // .storybook/main.ts
 
 // Replace your-framework with the framework you are using (e.g., react-webpack5, vue3-vite)
-import type { StorybookConfig } from '@storybook/your-framework';
+import type { StorybookConfig } from "@storybook/your-framework";
 
 const config: StorybookConfig = {
   // ...rest of config
   addons: [
-    '@storybook/essentials',
+    "@storybook/essentials",
     {
-      name: 'my-addon',
+      name: "my-addon",
       options: {
         // 👈 options for my-addon go here
       },
@@ -176,7 +178,6 @@ export default config;
 Type: `boolean`
 
 Enable experimental behavior to...
-
 ````
 
 ## Release Management

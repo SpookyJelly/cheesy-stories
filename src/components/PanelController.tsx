@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import { styled, themes, convert } from "@storybook/theming";
-import { Button, Placeholder, IconButton } from "@storybook/components";
-import { CheckIcon } from "@storybook/icons";
-import { PureArgsTable } from "@storybook/blocks";
-import {
-  useAddonState,
-  useChannel,
-  addons,
-  useParameter,
-} from "@storybook/manager-api";
-import { ADDON_ID, EVENTS, PARAM_KEY } from "../constants";
+import { styled } from "@storybook/theming";
+import { Button } from "@storybook/components";
+import { addons } from "@storybook/manager-api";
+import { EVENTS } from "../constants";
 
 export const Label = styled.span({
   fontFamily: "Nunito Sans",

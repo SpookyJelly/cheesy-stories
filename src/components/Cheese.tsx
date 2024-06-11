@@ -18,11 +18,11 @@ const BLOCK = "internal__preview";
 const Wrapper = styled.div`
   border: solid 1px #e2e5ed;
   background: #ededed;
+  min-height: 50px;
   & .-resizable {
     display: grid;
     background: white;
     max-width: 100%;
-    /* max-height: 100%; */
     min-width: fit-content;
     grid-template:
       "content handle" 1fr

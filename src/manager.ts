@@ -1,5 +1,5 @@
 import { addons, types } from "@storybook/manager-api";
-import { ADDON_ID, TOOL_ID, PANEL_ID, TAB_ID } from "./constants";
+import { ADDON_ID, PANEL_ID } from "./constants";
 import { Panel } from "./Panel";
 
 /**
@@ -16,11 +16,4 @@ addons.register(ADDON_ID, () => {
     match: ({ viewMode }) => viewMode === "story",
     render: Panel,
   });
-
-  // // Register the tab
-  // addons.add(TAB_ID, {
-  //   type: types.TAB,
-  //   title: "My addon",
-  //   render: Tab,
-  // });
 });
