@@ -1,6 +1,6 @@
 {
   "name": "cheesy-stories",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "control your story's width like a cheese",
   "keywords": [
     "storybook-addons",
@@ -107,7 +107,7 @@
     "supportedFrameworks": [
       "react"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://github.com/SpookyJelly/cheesy-stories/assets/74237436/b410d10c-93ff-4eb2-ac66-61f1298dd47b"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
