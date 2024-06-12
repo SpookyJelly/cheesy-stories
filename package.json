@@ -1,7 +1,7 @@
 {
-  "name": "chessy-stories",
-  "version": "0.0.0",
-  "description": "control your story's width like a chesse",
+  "name": "cheesy-stories",
+  "version": "0.1.0",
+  "description": "control your story's width like a cheese",
   "keywords": [
     "storybook-addons",
     "storybook-addons",
@@ -45,7 +45,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p build:watch \"storybook --quiet\"",
     "prerelease": "zx scripts/prepublish-checks.js",
-    "release": "npm run build && auto shipit",
+    "release": "npm run build && npm publish",
     "eject-ts": "zx scripts/eject-typescript.js",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -103,7 +103,7 @@
     ]
   },
   "storybook": {
-    "displayName": "chessy-stories",
+    "displayName": "cheesy-stories",
     "supportedFrameworks": [
       "react"
     ],

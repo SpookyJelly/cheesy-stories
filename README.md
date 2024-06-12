@@ -1,8 +1,10 @@
 <div align="center">
   <img src="https://github.com/SpookyJelly/cheesy-stories/assets/74237436/b410d10c-93ff-4eb2-ac66-61f1298dd47b" alt="logo" width="150px"/>
-  <h1>chessy-stories</h1>
+  <h1>cheesy-stories</h1>
   <span><img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg"/></span>
-  <span><img src="https://badgen.net/badge/Built%20With/TypeScript/blue"/></span>
+  <span><img src="https://img.shields.io/github/package-json/v/SpookyJelly/cheesy-stories?color=brightgreen"/></span>
+<span><img src="https://badgen.net/badge/Built%20With/TypeScript/blue"/></span>
+
 </div>
 <hr/>
 
